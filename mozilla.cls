@@ -18,6 +18,7 @@
 \RequirePackage{verbatim}
 
 % Declaration of options
+\def\background{mozilla-bg-darkgrey}
 
 \newboolean{BNotes}
 
@@ -121,7 +122,7 @@
   \def\beamer@noteenvstart{\usebeamercolor{notes text}\begin{itemize}\itemsep=0pt\parskip=0pt}%
   \def\beamer@noteenvend{\end{itemize}}}
 
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{imgs/mozilla-bg.png}}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{imgs/\background}}
 
 \AtBeginSection[]
 {
