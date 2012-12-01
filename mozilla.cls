@@ -24,6 +24,11 @@
 
 \DeclareOption{notes}{\setboolean{BNotes}{true}}
 
+\DeclareOption{blue}{\def\background{mozilla-bg-blue}}
+\DeclareOption{darkgrey}{\def\background{mozilla-bg-darkgrey}}
+%\DeclareOption{sandstone}{\def\background{mozilla-bg-sandstone}}
+\DeclareOption{red}{\def\background{mozilla-bg-red}}
+
 % processing options
 
 \ProcessOptions
