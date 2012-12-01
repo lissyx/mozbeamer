@@ -1,0 +1,55 @@
+% Based on KDE Air Beamer template
+
+\beamer@headheight=0.13\paperwidth
+
+\definecolor{mozorange}{rgb}{.953 ,.502 ,.04}
+\definecolor{mozdarkblue}{HTML}{064F6F}
+\definecolor{mozlightblue}{HTML}{0099d5}
+\definecolor{mozgray}{HTML}{686868}
+\definecolor{mozlightgray}{HTML}{eeeeee}
+\definecolor{mozblue}{rgb}{.13 ,.43 ,.68}
+\definecolor{mozin}{HTML}{717E86}
+\definecolor{mozout}{HTML}{48535D}
+
+\setbeamercolor{structure}{fg=mozlightgray,bg=mozgray}
+
+\setbeamercolor{Title bar}{fg=white}
+\setbeamercolor{Location bar}{fg=mozgray,bg=mozlightgray}
+\setbeamercolor{frametitle}{parent=Title bar}
+\setbeamercolor{normal text}{bg=white,fg=white}
+\setbeamercolor{notes text}{bg=white,fg=black}
+
+\setbeamercolor{local mozilla}{parent=structure}
+
+\setbeamercolor{item}{parent=mozilla}
+\setbeamercolor{subitem}{parent=item}
+\setbeamercolor{subsubitem}{parent=subitem}
+
+\setbeamercolor{item projected}{parent=item,use=item,fg=mozgray,bg=item.fg}
+\setbeamercolor{subitem projected}{parent=item projected}
+\setbeamercolor{subsubitem projected}{parent=subitem projected}
+
+\setbeamercolor{enumerate item}{parent=item}
+\setbeamercolor{enumerate subitem}{parent=subitem}
+\setbeamercolor{enumerate subsubitem}{parent=subsubitem}
+
+\setbeamercolor{itemize item}{parent=item}
+\setbeamercolor{itemize subitem}{parent=subitem}
+\setbeamercolor{itemize subsubitem}{parent=subsubitem}
+
+\setbeamercolor{itemize/enumerate body}{}
+\setbeamercolor{itemize/enumerate subbody}{}
+\setbeamercolor{itemize/enumerate subsubbody}{}
+
+\setbeamercolor{block body}{use=palette,bg=structure.bg!10,fg=structure.bg}
+\setbeamercolor{block body alerted}{fg=structure.bg}
+\setbeamercolor{block body example}{fg=structure.bg}
+\setbeamercolor{block title}{use=palette,bg=structure.bg,fg=structure.fg}
+\setbeamercolor{block title alerted}{parent=alerted text}
+\setbeamercolor{block title example}{parent=example text}
+
+\setbeamerfont{frametitle}{size=\Large}
+\setbeamerfont{framesubtitle}{size=\small}
+\setbeamerfont{author}{size=\LARGE}
+\setbeamerfont{role}{size=\normalsize}
+\setbeamerfont{contact}{size=\scriptsize}
