@@ -12,8 +12,7 @@
 \RequirePackage{pgf}
 \RequirePackage{thumbpdf}
 \RequirePackage{wasysym}
-\RequirePackage{ucs}
-\RequirePackage[utf8x]{inputenc}
+\RequirePackage[utf8]{inputenc}
 \RequirePackage{pgf,pgfarrows,pgfnodes,pgfautomata,pgfheaps,pgfshade}
 \RequirePackage{verbatim}
 
