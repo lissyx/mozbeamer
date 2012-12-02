@@ -41,9 +41,14 @@
   \def\theemail{#1}
 }
 
+\newcommand<>{\titleimg}[1]{%
+  \def\thetitleimg{#1}
+}
+
 %default values
 \def\therole{}
 \def\theemail{}
+\def\thetitleimg{}
 
 \ifthenelse{\boolean{BNotes}}
 {
@@ -68,7 +73,15 @@
     \usebeamerfont{title}\inserttitle\par
     \usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par
   \end{center}
-  \vskip 4cm
+  \ifx\thetitleimg\empty
+    % no section image for title page
+    \vskip 4cm\par
+  \else
+    \hskip -33pt
+    \begin{minipage}[t]{1.2\textwidth}
+      \includegraphics[width=\textwidth]{\thetitleimg}\par
+    \end{minipage}
+  \fi
   \begin{minipage}[t]{0.2\textwidth}\centering
     \usebeamerfont{institute}\insertinstitute\par
   \end{minipage}
