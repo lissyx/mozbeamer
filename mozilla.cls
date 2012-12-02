@@ -13,6 +13,8 @@
 \RequirePackage{thumbpdf}
 \RequirePackage{wasysym}
 \RequirePackage[utf8]{inputenc}
+\RequirePackage{lmodern}
+\RequirePackage[T1]{fontenc}
 \RequirePackage{pgf,pgfarrows,pgfnodes,pgfautomata,pgfheaps,pgfshade}
 \RequirePackage{verbatim}
 
